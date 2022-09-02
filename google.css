@@ -1,0 +1,363 @@
+.container{
+    display: grid;
+    grid-template-columns:auto;
+    grid-template-rows: 50px 300px 100px;
+    
+    
+    
+
+}
+
+.topbar{
+   
+    position: absolute;
+    top: 10px;  
+    right: 80px;
+    width: 400px;
+    height: 80px;
+    
+ 
+    grid-area: 1/2;
+    
+    align-items: 500px;
+ 
+  
+    display: inline-flex;
+}
+.top{
+    margin-left: 40px;
+}
+
+
+.pointer{
+    color: #000;
+    cursor: pointer;
+    text-decoration: none;
+    
+   
+    background-position: -64px -29px;
+    padding: 8px;
+    display: inline-block;
+    outline: none;
+    vertical-align: middle;
+    box-sizing: border-box;
+    height: 40px;
+    width: 40px;
+    
+}
+.logo{
+    align-items: right;
+
+    padding-top: auto;
+    padding-bottom: 0px;
+    margin-top: 10px;
+    border-radius: 250px;
+    display: inline-block;
+    
+}
+.topbar{
+    text-align: center;
+    font-size: 25px;
+    text-decoration: none
+}
+.top{
+    text-decoration: none;
+    color: black;
+}
+.boyut{
+    width: 40px;
+
+}
+.secondbar{
+        position: relative;
+        display: flex;
+        flex-direction:column;
+        
+        
+      
+        height: 25px;
+        
+        
+      }
+
+      .thirdbar{    
+       
+       width: auto;
+       height:70px;
+       padding-top: 18px;
+       
+        padding-bottom: 20px;
+        
+      }
+    .g-search{
+        background-color: #f8f9fa;
+        border: 1px solid #f8f9fa;
+        border-radius: 4px;
+        color: #3c4043;
+        font-family: arial,sans-serif;
+        font-size: 14px;
+        margin: 11px 4px;
+        padding: 0 16px;
+        line-height: 27px;
+        height: 36px;
+        min-width: 54px;
+        text-align: center;
+        cursor: pointer;
+        user-select: none;
+        border-color: #000;
+     
+
+    }
+    .g-search:hover{
+        box-shadow: 0 0 11px rgba(17, 16, 16, 0.2); 
+       
+        
+    }
+
+    .g-lucky{
+        background-color: #f8f9fa;
+        border: 1px solid #f8f9fa;
+        border-radius: 4px;
+        color: #3c4043;
+        font-family: arial,sans-serif;
+        font-size: 14px;
+        margin: 11px 4px;
+        padding: 0 16px;
+        line-height: 27px;
+        height: 36px;
+        min-width: 54px;
+        text-align: center;
+        cursor: pointer;
+        user-select: none;
+        border-color: #000;
+
+
+    }
+    .g-lucky:hover{ 
+        box-shadow: 0 0 11px rgba(17, 16, 16, 0.2); 
+       
+        
+    }
+      .center{
+        display: block;
+        text-align: -webkit-center;
+      }
+
+      .googlepic{
+        padding-top: 100px ;
+        
+        text-align: center;
+        }
+.inp{
+    display: flex;
+    z-index: 3;
+    height: 44px;
+    background: #fff;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    margin: 0 auto;
+    padding-right: 20px;
+    width: auto;
+    max-width: 584px;
+}
+.middle{
+    flex: 1;
+    display: flex;
+    padding: 5px 8px 0 14px;
+
+
+
+}
+S-logo{
+   display: flex;
+   align-items: center;
+   padding-right: 13px;
+   margin-top: -5px;
+}
+.mercek{
+    margin: auto;
+}
+.M-class{
+    height: 20px;
+    line-height: 20px;
+    width: 20px;
+}
+span{
+    height: 20px;
+    line-height: 20px;
+    width: 20px;
+    color: #9aa0a6;
+    margin-top: 3px;
+    display: inline;
+    fill: currentColor;
+    position: relative;
+}
+.dottt{
+    display: block;
+    height: 15%;
+    width: 50%;
+    overflow: hidden;
+    }
+      
+
+    .mid-in{
+        display: flex;
+        flex: 1;
+        flex-wrap: wrap;
+    }
+.mid-mid{
+    color: transparent;
+    flex: 100%;
+    white-space: pre;
+    height: 34px;
+    font-size: 16px;
+}
+.mid-deep{
+    background-color: transparent;
+   
+    margin: 0;
+    padding: 0;
+    color: rgb(0, 0, 0, .87);
+    word-wrap: break-word;
+    outline: none;
+    display: flex;
+    flex: 100%;
+    -webkit-tap-highlight-color: transparent;
+    margin-top: -37px;
+    height: 34px;
+    font-size: 16px;
+    padding-left: 5px;
+    width:510px;
+    margin-right: 0px;
+    margin-left: -25px;
+  border: none; 
+    
+}
+
+.mid-last{
+    display: flex;
+    flex: 0 0 auto;
+    margin-top: -5px;
+    align-items: stretch;
+    flex-direction: row;
+    
+}
+.mid-last-left{
+    padding-right: 4px;
+    background: transparent;
+    align-items: center;
+    flex: 1 0 auto;
+    flex-direction: row;
+    display: flex;
+    cursor: pointer;
+}
+.mid-last-left1{
+    background: transparent;
+    border: 0;
+    align-items: center;
+    flex: 1 0 auto;
+    cursor: pointer;
+    display: none;
+    height: 100%;
+    line-height: 44px;
+    outline: none;
+    padding: 0 12px;
+    
+}
+.mic-left{
+    height: 100%;
+    color: #70757a;
+    vertical-align: middle;
+    outline: none;
+    display: inline-block;
+    fill: currentColor;
+    height: 24px;
+    line-height: 24px;
+    position: relative;
+    width: 24px;
+}
+.micc{
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+.micc:not(:root){
+    overflow: hidden;
+}
+.mic-left1{
+    display: none;
+    border-left: 1px solid #dadce0;
+    height: 65%;
+}
+
+.fourthbar{
+    text-align: center;
+   
+    margin-bottom: 24px;
+}
+.languages{
+    color: #4d5156;
+    display: inline-block;
+    line-height: 28px;
+}
+.diller{
+    text-decoration: none;
+    padding: 0 4px;
+}
+.diller:visited{
+        color: #681da8;
+}
+
+.bottom-bar{
+    margin-top: 215px;
+    padding-bottom: 16px;
+   
+    box-sizing: border-box;
+    background-color: #f2f2f2;
+    
+
+
+}
+.location{
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: #70757a;
+}
+.last-bar{
+    
+    padding: 0 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+.last-bar-left{
+    
+    justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.last-elements{
+    color: #70757a;
+    display: block;
+    padding: 15px;
+    white-space: nowrap;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+.last-bar-right{
+    justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap;
+
+
+
+}
+.settings1{
+    cursor: pointer;
+    display: inline-block;
+}
